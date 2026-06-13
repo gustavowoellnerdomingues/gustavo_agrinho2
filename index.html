@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroFuturo | Sucessão Familiar e Tecnologia Sustentável no Campo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="accessibility-bar" role="complementary" aria-label="Ferramentas de Acessibilidade">
+        <div class="container-acc">
+            <button id="btn-contrast" aria-label="Alternar Alto Contraste">Alto Contraste</button>
+            <div class="font-controls">
+                <button id="btn-font-dec" aria-label="Diminuir tamanho da fonte">A-</button>
+                <button id="btn-font-inc" aria-label="Aumentar tamanho da fonte">A+</button>
+            </div>
+        </div>
+    </div>
+
+    <header class="main-header">
+        <div class="container header-container">
+            <div class="logo">Agro<span>Futuro</span></div>
+            <nav class="main-nav" aria-label="Navegação Principal">
+                <a href="#beneficios">Benefícios</a>
+                <a href="#depoimentos">Casos de Sucesso</a>
+                <a href="#faq">Dúvidas</a>
+                <a href="#cta" class="btn btn-secondary">Quero Inovar</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="hero-tag">A Nova Era do Agronegócio</span>
+                <h1>O jovem de volta ao campo através da tecnologia sustentável</h1>
+                <p>Garanta uma sucessão familiar moderna, altamente produtiva e em perfeito equilíbrio com a natureza. O futuro da sua propriedade está na inovação digital.</p>
+                <div class="hero-actions">
+                    <a href="#cta" class="btn btn-primary">Garantir o Futuro da Minha Terra</a>
+                    <a href="#beneficios" class="btn btn-outline">Conhecer o Método</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <div class="hero-image-placeholder">
+                    <span class="badge-tech">⚡ Conectividade & Sustentabilidade</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="beneficios" class="benefits-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Por que a tecnologia é a chave para a sucessão familiar?</h2>
+                <p>Unimos o conhecimento das gerações tradicionais com o dinamismo e o propósito que a nova geração busca.</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">🌱</div>
+                    <h3>Produtividade Verde</h3>
+                    <p>Uso de inteligência artificial e sensores agrícolas para maximizar a colheita reduzindo drasticamente o impacto ambiental.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">📱</div>
+                    <h3>Gestão Conectada</h3>
+                    <p>Atraia os jovens liderando o negócio através de dados, dashboards e automação, transformando a fazenda em uma startup agro.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🤝</div>
+                    <h3>Sucessão Sem Conflitos</h3>
+                    <p>Metodologia de transição de governança que respeita o legado dos pais e abre espaço para a inovação dos filhos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="depoimentos" class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Quem transformou a propriedade aprova</h2>
+                <p>Histórias reais de famílias que uniram gerações através da tecnologia sustentável.</p>
+            </div>
+            <div class="carousel-container">
+                <div id="carousel-track" class="carousel-track">
+                    </div>
+                <div class="carousel-controls">
+                    <button id="carousel-prev" aria-label="Depoimento Anterior">&larr;</button>
+                    <button id="carousel-next" aria-label="Próximo Depoimento">&rarr;</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Perguntas Frequentes</h2>
+                <p>Tire suas dúvidas sobre como iniciar a transição tecnológica e geracional.</p>
+            </div>
+            <div id="faq-accordion" class="faq-accordion">
+                </div>
+        </div>
+    </section>
+
+    <section id="cta" class="cta-section">
+        <div class="container cta-container">
+            <h2>Pronto para liderar a modernização sustentável da sua fazenda?</h2>
+            <p>Receba um diagnóstico gratuito de prontidão tecnológica e sucessória para o seu negócio rural. Vagas limitadas para este mês.</p>
+            <form id="cta-form" class="cta-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Seu nome completo" required aria-label="Seu nome completo">
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Seu melhor e-mail" required aria-label="Seu melhor e-mail">
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="phone" placeholder="Seu WhatsApp" required aria-label="Seu WhatsApp">
+                </div>
+                <button type="submit" class="btn btn-secondary btn-large">Falar com um Especialista em Sucessão</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 AgroFuturo Inovações Sustentáveis. Todos os direitos reservados.</p>
+            <p>Desenvolvido para a nova geração do campo.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
